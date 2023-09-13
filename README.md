@@ -23,6 +23,6 @@ corpSecret := 企业Secret值，企业微信后台登录查看
 
 rsaPrivateKey := RSA密钥，企业微信后台设置，由第三方网站生成
 
-6.原example只支持获取最近发送的图片并保存在云服务中，修改example.go，增加获取文本内容并存档的代码
+6.原example只支持获取最近发送的图片并保存在云服务中，参考官方文档 https://open.work.weixin.qq.com/api/doc/90000/90135/91774，并修改example.go，增加获取文本内容并存档的代码
 
 7.运行程序 go run example.go
