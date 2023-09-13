@@ -26,3 +26,7 @@ rsaPrivateKey := RSA密钥，企业微信后台设置，由第三方网站生成
 6.原example只支持获取最近发送的图片并保存在云服务中，参考官方文档 https://open.work.weixin.qq.com/api/doc/90000/90135/91774 。并修改example.go，增加获取文本内容并存档的代码
 
 7.运行程序 go run example.go
+
+坑：腾讯云退出再登陆后会自动修改某些文件的权限，使得go无法使用，可以重新下载安装一变
+
+chmod -r 777 folder   给文件夹及下面所有子文件添加root权限
