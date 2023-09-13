@@ -1,10 +1,10 @@
 # Tencent-Cloud-for-Enterprise-Wechat
 在腾讯云部署的企业微信会话内容存档
 
-环境部署：
-腾讯云香港主机，登录后切换成root账号 sudo su
-1.安装Golang环境,官网下载并解压缩在/usr/go/go文件夹,在/etc/profile 最后一行加上环境变量：export PATH=$PATH:/usr/go/go/bin
-2.检查Golang是否安装成功：go version
+#环境部署：
+##腾讯云香港主机，登录后切换成root账号 sudo su
+##1.安装Golang环境,官网下载并解压缩在/usr/go/go文件夹,在/etc/profile 最后一行加上环境变量：export PATH=$PATH:/usr/go/go/bin
+##2.检查Golang是否安装成功：go version
 3.程序包地址：https://github.com/NICEXAI/WeWorkFinanceSDK
 4.上传程序到/usr/wechatdata文件下
 5.修改程序中example.go中的	
