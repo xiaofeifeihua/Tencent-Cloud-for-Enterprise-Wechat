@@ -13,7 +13,7 @@ https://open.work.weixin.qq.com/api/doc/90000/90135/91774
 
 3.程序包地址：https://github.com/NICEXAI/WeWorkFinanceSDK
 
-4.上传程序到/usr/wechatdata文件下
+4.上传程序到/usr/wechatdata文件下， 下载wget https://github.com/NICEXAI/WeWorkFinanceSDK/archive/refs/heads/main.zip，解压 unzip main.zip
 
 5.修改程序中example.go中的	
 
